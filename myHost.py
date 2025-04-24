@@ -1,4 +1,5 @@
 import socket
+import sys
 
 HOST = sys.argv[1]
 PORT = 34671
