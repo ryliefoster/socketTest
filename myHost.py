@@ -1,6 +1,6 @@
 import socket
 
-HOST = ""
+HOST = sys.argv[1]
 PORT = 34671
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
